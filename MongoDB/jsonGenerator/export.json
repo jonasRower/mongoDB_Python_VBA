@@ -1,0 +1,136 @@
+                                                  
+var JSONMenu = {
+          pocetElementu:   18,
+          elementP:  [
+                    {
+                              poradiElementu: "0",
+                              pDescription: "Preprocessor/Postprocessor",
+                              pId: "",
+                              pClass: ""
+                    },
+                    {
+                              poradiElementu: "2",
+                              pDescription: "Type of Results",
+                              pId: "",
+                              pClass: "outputs"
+                    },
+                    {
+                              poradiElementu: "4",
+                              pDescription: "Select DOF",
+                              pId: "",
+                              pClass: "outputs"
+                    },
+                    {
+                              poradiElementu: "6",
+                              pDescription: "Select OFT",
+                              pId: "",
+                              pClass: "outputs"
+                    },
+                    {
+                              poradiElementu: "8",
+                              pDescription: "Filter by",
+                              pId: "",
+                              pClass: "elementPreview"
+                    },
+                    {
+                              poradiElementu: "10",
+                              pDescription: "Node Preview",
+                              pId: "",
+                              pClass: "elementPreview"
+                    },
+                    {
+                              poradiElementu: "9",
+                              pDescription: "Element Preview",
+                              pId: "",
+                              pClass: "elementPreview"
+                    },
+                    {
+                              poradiElementu: "12",
+                              pDescription: "Move Text",
+                              pId: "",
+                              pClass: "moveText"
+                    }
+          ],
+                                                  
+          elementSelect:  [
+                    {
+                              poradiElementu: "1",
+                              selectId: "selectPrePost",
+                              selectClass: "PrePost",
+                              radkyOption: [
+                                        "inputs",
+                                        "outputs"
+                              ]
+                    },
+                    {
+                              poradiElementu: "3",
+                              selectId: "selectResults",
+                              selectClass: "outputs",
+                              radkyOption: [
+                                        "LocalDisplacements",
+                                        "GlobalDisplacements",
+                                        "LocalForces",
+                                        "Reactions"
+                              ]
+                    },
+                    {
+                              poradiElementu: "5",
+                              selectId: "selectDOF",
+                              selectClass: "outputs",
+                              radkyOption: [
+                                        "1",
+                                        "3",
+                                        "5"
+                              ]
+                    },
+                    {
+                              poradiElementu: "7",
+                              selectId: "selectOFT",
+                              selectClass: "outputs",
+                              radkyOption: [
+                                        "1.00000000e+00",
+                                        "2.00000000e+00",
+                                        "3.00000000e+00"
+                              ]
+                    },
+                    {
+                              poradiElementu: "11",
+                              selectId: "selectNodePreview",
+                              selectClass: "elementPreview",
+                              radkyOption: [
+                                        "-1",
+                                        "0"
+                              ]
+                    },
+                    {
+                              poradiElementu: "10",
+                              selectId: "selectElementPreview",
+                              selectClass: "elementPreview",
+                              radkyOption: [
+                                        "-1",
+                                        "0"
+                              ]
+                    }
+          ],
+                                                  
+          elementForm:  [
+                    {
+                              poradiElementu: "9",
+                              formId: "filterBy",
+                              formClass: "elementPreview",
+                              radkyInput: [
+                                        "Element -> Node",
+                                        "Node -> Element"
+                              ]
+                    },
+                    {
+                              poradiElementu: "13",
+                              formId: "moveText",
+                              formClass: "moveText",
+                              radkyInput: [
+                                        "Old algorithm",
+                                        "New algorithm"
+                              ]
+                    }
+          ]
+}
