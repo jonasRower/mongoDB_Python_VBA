@@ -1,2 +1,5 @@
 # mongoDB_Python_VBA
-data manipulation in mongoDB using Python+VBA
+Very small code in Python.
+Data preparation in VBA Excel.
+
+Data are known in OOFEM.
